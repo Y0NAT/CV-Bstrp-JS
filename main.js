@@ -21,3 +21,27 @@ function toggleCheckbox(){
 
     //  document.getElementById("bkgrnd").classList.toggle('bg-secondary');
 }
+let lejour;
+switch (new Date().getDay()) {
+  case 0:
+    lejour = "Dimanche";
+    break;
+  case 1:
+    lejour = "Lundi";
+    break;
+  case 2:
+    lejour = "Mardi";
+    break;
+  case 3:
+    lejour = "Mercredi";
+    break;
+  case 4:
+    lejour = "Jeudi";
+    break;
+  case 5:
+    lejour = "Vendredi";
+    break;
+  case  6:
+    lejour = "Samedi";
+}
+document.getElementById("jour").innerHTML = "Aujourd'hui c'est : " + lejour;
