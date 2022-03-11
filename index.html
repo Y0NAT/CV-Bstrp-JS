@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" src="./style.css">
+    <title>Mon CV Bootstrap JS</title>
+</head>
+<body class="user-select-none">
+    <!-- BARRE DE NAVIGATION EN HAUT DE PAGE -->
+    <header>
+        <div class="container-fluid bg-dark">
+            <nav class="container navbar fixed-top navbar-light bg-light border border-dark">
+
+                    <div class="container-fluid">
+                      <a class="navbar-brand border-end border-dark ps-2 pe-3" href="#">
+                        <img src="./images/cv.png" alt="cv logo" width="35" height="30" class="d-inline-block align-text-top pb-1">
+                        Mon CV Bootstrap5 & JavaScript
+                      </a>
+                      <div class="form-check form-switch">
+                        <input onclick="toggleCheckbox()" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Switch-Mode</label>
+                      </div>
+                    </div>
+              </nav>
+        </div>                
+    </header>
+    <!-- PHOTO PROFIL & PRESENTATION -->
+    <section>
+        <div id="bkgrnd" class="container-fluid bg-secondary pt-4">
+            <div class="container bg-secondary border-start border-dark rounded-3">
+                <div class="row pt-5">
+                    <div class="col-md-3 text-left text-md-center mb-3">
+                      <img class="rounded-pill img-fluid pt-3" width="150" height="150" src="./images/profil.png" alt="Profile Photo"/>
+                    </div>
+                    <div class="col-md-9">
+                      <h1 class="fs-1" style="font-family: 'Bebas Neue', cursive;">Yonathan Favre</h1>
+                      <h5>Web Developer</h5>
+                      <p class="border-top pt-3 text-md-left" style="font-family: 'Inconsolata', monospace;">Étudiant motivé en informatique, je bénéficie d'une expérience pratique acquise au cours de divers stages et formations. Doté d'une grande capacité d'adaptation, je sais me montrer proactif et digne de confiance dans la réalisation de mes missions.</p>
+                    </div>       
+                  </div>        
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EXPERIENCEs PROFESSIONNELs -->
+    <section>
+        <div id="bkgrnd" class="container-fluid bg-secondary">
+            <div class="container bg-light pt-4 border border-bottom-0 border-dark rounded-3">
+                <h1 class="fs-2 fw-b pb-5 ps-5">Expériences professionnels :</h1>
+                <div class="row">
+            
+                  <div class="col-md-3 text-left text-md-center mb-3">
+                    <a href="https://www.geneve.ch/fr/cite-seniors"><img class="img-fluid mx-auto" style="width: 200px;" src="./images/gnv.svg" alt="Profile Photo"/></a>
+                  </div>
+                  <div class="col-md-7">
+                    <h1 class="fs-3" style="font-family: 'Bebas Neue', cursive;">Cité-Sénior</h1>
+                    <h4>Assistant socio-éducatif</h4>
+                    <h5>05/2019 - 05/2019</h5>
+                    <p class="border-top border-dark pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Accompagnement de personnes âgées, initiation à la téléphonie et technologie.</p>
+                  </div>  
+            
+                  <div class="col-md-3 text-left text-md-center mb-3">
+                    <a href="https://aimepouly.ch/"><img class="img-fluid mx-auto" style="width: 175px;" src="./images/pouly.svg" alt="Profile Photo"/></a>
+                  </div>
+                  <div class="col-md-7">
+                    <h1 class="fs-3" style="font-family: 'Bebas Neue', cursive;">Aimé Pouly</h1>
+                    <h4>Boulanger - pâtissier</h4>
+                    <h5>02/2019 - 02/2019</h5>
+                    <p class="border-top border-dark pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Confection de pâtisseries individuelles, petits fours sucrés et biscuits..</p>
+                  </div>   
+            
+                  <div class="col-md-3 text-left text-md-center mb-3">
+                    <a href="https://www.geneve.ch/fr/cite-seniors"><img class="img-fluid mx-auto" style="width: 200px;" src="./images/gnv.svg" alt="Profile Photo"/></a>
+                  </div>
+                  <div class="col-md-7">
+                    <h1 class="fs-3" style="font-family: 'Bebas Neue', cursive;">Cité-Sénior</h1>
+                    <h4>Assistant socio-éducatif</h4>
+                    <h5>05/2018 - 05/2018</h5>
+                    <p class="border-top border-dark pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Accompagnement de personnes âgées, initiation à la téléphonie et technologie.</p>
+                  </div>
+            
+                  <div class="col-md-3 text-left text-md-center mb-3">
+                    <a href="https://edu.ge.ch/site/cfpt/"><img class="img-fluid mx-auto pt-4" style="width: 200px;" src="./images/cfpt.png" alt="Profile Photo"/></a>
+                  </div>
+                  <div class="col-md-7">
+                    <h1 class="fs-3" style="font-family: 'Bebas Neue', cursive;">CFPT Genève</h1>
+                    <h4>Automaticien</h4>
+                    <h5>08/2017 - 08/2017</h5>
+                    <p class="border-top border-dark pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Planification et réalisation des essais en atelier, apport des modifications nécessaires, mise à jour des outils de suivi, production des rapports et supervision de la programmation de l'automate.</p>
+                  </div>
+            
+                  <div class="col-md-3 text-left text-md-center mb-3">
+                    <a href="https://cash-converters.ch/"><img class="img-fluid mx-auto pt-4" style="width: 200px;" src="./images/cash.png" alt="Profile Photo"/></a>
+                  </div>
+                  <div class="col-md-7">
+                    <h1 class="fs-3" style="font-family: 'Bebas Neue', cursive;">Cash Converter</h1>
+                    <h4>Gestionnaire du commerce de détail</h4>
+                    <h5>05/2015 - 05/2015</h5>
+                    <p class="border-top border-dark pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Accueil des clients à leur arrivée au sein de l'agence, prise de
+                      renseignements complémentaires afin de traiter leur demande avec
+                      efficacité.</p>
+                  </div>      
+                </div>        
+              </div>
+        </div>
+    </section>
+    <!-- mes FORMATIONs EN CAROUSEL -->
+    <section>
+      <div id="bkgrnd" class="container-fluid bg-secondary">
+        <div class="container bg-light border border-dark pt-0 rounded-3">
+          <div class="text-dark py-5">
+            <h2 class="text-center border border-bottom-0 mx-auto border-dark rounded-pill pt-3 pb-3">Mes Formations</h2>
+              <div id="carouselExampleIndicators" class="carousel slide border border-dark rounded-pill" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+    
+                    <div class="carousel-inner pt-5 pb-5 bg bg-secondary rounded-pill">
+    
+                      <div class="carousel-item active">
+                        <div class="col-md-7 mb-4 text-center mx-auto pt-1 pb-3" style="width: 200px;">
+                            <a href="https://www.realise.ch/fr"><img src="./images/real.png" alt="Réalise"></a>
+                            <h4 class="border-top pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Développeur WEB</h4>
+                            <h5>02/2022 - En cours</h5>
+                          </div>
+                      </div>
+    
+                      <div class="carousel-item">
+                          <div class="row row-cols-lg-2">
+                              <div class="col ps-5">
+                                <a href="https://www.ge.ch/organisation/direction-generale-office-orientation-formation-professionnelle-continue"><img class="rounded float-end pb-5" src="./images/GE.svg" alt="CAP Formation"></a>
+                              </div>
+                              <div class="col">
+                                <div class="col-md-7 mb-4 pt-4">
+                                  <h1 class="fs-3" style="font-family: 'Bebas Neue', cursive;">CAP Formation</h1>
+                                  <h4 class="border-top pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Programme de retour en formation</h4>
+                                  <h5>09/2019 - 01/2022</h5>
+                                </div>
+                              </div>
+                          </div> 
+                      </div>
+    
+                      <div class="carousel-item">
+                        <div class="row row-cols-lg-2">
+                          <div class="col ps-5">
+                            <a href="https://edu.ge.ch/site/ellamaillart/"><img class="rounded float-end pb-5" src="./images/GE.svg" alt="ECG Ella-Maillart"></a>
+                          </div>
+                          <div class="col">
+                            <div class="col-md-7 mb-4 pt-4">
+                              <h1 class="fs-3" style="font-family: 'Bebas Neue', cursive;">ECG - Ella-Maillart</h1>
+                              <h4 class="border-top pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Secondaire II</h4>
+                              <h5>08/2017 - 03/2019</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="carousel-item">
+                        <div class="row row-cols-lg-2">
+                          <div class="col ps-5">
+                            <a href="https://edu.ge.ch/site/montbrillant/"><img class="rounded float-end pb-5" src="./images/GE.svg" alt="CO Montbrillant"></a>
+                          </div>
+                          <div class="col">
+                            <div class="col-md-7 mb-4 pt-4">
+                              <h1 class="fs-3" style="font-family: 'Bebas Neue', cursive;">CO - Montbrillant</h1>
+                              <h4 class="border-top pt-2 text-md-left" style="font-family: 'Inconsolata', monospace;">Scolarité obligatoire   (LC-Promu)</h4>
+                              <h5>08/2014 - 06/2017</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+              </div>
+          </div>
+        </div>
+      </div>      
+    </section>
+    <section>
+      <div id="bkgrnd" class="container-fluid bg-secondary">
+        <div class="container bg-light pt-3 rounded-3 border border-bottom-0 border-dark" style="font-family: 'Bebas Neue', cursive;">
+          <h2>Compétences personnelles :</h2>
+            <div class="row pt-3">
+              <div class="col-2 text-center">
+                <p>Créatif</p>
+              </div>
+              <div class="col-2 text-center">
+                <p>Sociable</p>
+              </div>
+              <div class="col-2 text-center">
+                <p>Sérieux</p>
+              </div>
+              <div class="col-2 text-center">
+                <p>Organisé</p>
+              </div>
+              <div class="col-2 text-center">
+                <p>Fiable</p>
+              </div>
+              <div class="col-2 text-center">
+                <p>Coopératif</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- CENTRE DINTERET - HOBBYS -->
+    <section>
+      <div id="bkgrnd" class="container-fluid bg-secondary">
+        <div class="container bg-light rounded-3 border border-bottom-0 border-dark">
+          <h2>Hobby</h2>
+          <div class="row pt-3 ps-5 pb-5 text-center">
+            <figure class="col-4 interet rounded-pill">
+              <img class="rounded-circle" height="120px" width="120px" src="./images/box.png" alt="boxe">
+              <figcaption>Kick-Boxing</figcaption>
+           </figure>
+           <figure class="col-4 interet  rounded-circle">
+              <img class="rounded-circle" height="120px" width="120px" src="./images/travel.png" alt="travel">
+              <figcaption>Voyage</figcaption>
+           </figure>
+           <figure class="col-4 interet rounded-pill">
+              <img class="rounded-circle" height="120px" width="120px" src="./images/music.png" alt="music">
+              <figcaption>Musique</figcaption>
+           </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- PIED DE PAGE  -->
+    <footer>
+      <div id="bkgrnd" class="container-fluid bg-secondary">
+        <div class="container bg-light rounded-3 border border-dark">
+          <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>contact.</p>
+                <p class="blockquote-footer">e-mail : <cite title="Source Title"><a href="mailto:yonathan@ik.me">yonathan@ik.me</a></cite></p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
